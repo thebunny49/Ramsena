@@ -1,0 +1,28 @@
+.heading{
+    font-size: 44px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+}
+.footmain{
+    display: flex;
+    width:70%;
+    justify-content:space-evenly;
+    align-items:center;
+  
+    left: 50%;
+    transform: translate(20%, 20%);
+}
+
+@media screen and (max-width:462px){
+    .heading{
+        font-size: 18px;
+    }  
+    .head{
+        font-size:14px
+    }
+    .s{
+        font-size: 8px;
+    }
+}
